@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="org.jcodec:jcodec-javase:0.2.3" type="repository">
+    <properties maven-id="org.jcodec:jcodec-javase:0.2.3" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jcodec/jcodec-javase/0.2.3/jcodec-javase-0.2.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jcodec/jcodec/0.2.3/jcodec-0.2.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

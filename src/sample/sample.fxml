@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<GridPane hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+   </rowConstraints>
+   <columnConstraints>
+      <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+   </columnConstraints>
+   <children>
+      <Text fill="#86799e" strokeType="OUTSIDE" strokeWidth="0.0" text="Licensed by goddamn no one&#10;because who would care about this shit" />
+      <Button fx:id="recordButton" mnemonicParsing="false" onAction="#recordButtonPressed" text="Record" GridPane.rowIndex="1" />
+      <Text fx:id="recordDuration" fill="#86799e" strokeType="OUTSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Button fx:id="processButton" mnemonicParsing="false" onAction="#processButtonPressed" text="Process" GridPane.rowIndex="2" />
+      <Text fx:id="processDuration" fill="#86799e" strokeType="OUTSIDE" strokeWidth="0.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <ProgressBar fx:id="progressBar" opacity="0.0" prefWidth="200.0" progress="0.0" styleClass="pink-bar" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+   </children>
+   <padding>
+      <Insets left="20.0" top="20.0" />
+   </padding>
+</GridPane>
